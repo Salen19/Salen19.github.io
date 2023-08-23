@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+#navbarNav{
+    font-size: 22px;
+}
+nav{
+    background: rgb(235, 221, 255);
+}
+header{
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 70vh;
+}
+.overlay{
+    background:rgba(45, 52, 54,0.5);
+    min-height:70vh;
+}
+.barra{
+    background: rgb(128, 98, 169);
+    width:100%;
+    min-height: 15vh;
+}
+
+
+.boton{
+    background: rgb(77, 0, 185) !important;
+    color: rgb(255, 255, 255);
+}
+.rectangulo{
+    background:rgb(205, 202, 227);
+    width: 80%;
+    height: 90%;
+    margin: 30px 100px ;
+}
+aside{
+    background:rgb(96, 67, 160);
+}
+form{
+    background-position: center;
+    
+   
+}
+
+footer{
+    margin-bottom: 0;
+}
