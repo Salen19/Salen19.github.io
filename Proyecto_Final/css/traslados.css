@@ -1,0 +1,46 @@
+.img-responsive{
+    width: 280px;
+    height: 350px;
+}
+.imagen-container {
+    display: inline-block;
+    overflow: hidden; /* Para mantener la imagen dentro del contenedor */
+    transition: transform 0.3s ease; /* Agrega una transición suave al efecto hover */
+  }
+  
+  .imagen-container:hover {
+    transform: scale(1.2); /* Escala la imagen al 120% cuando se pasa el mouse por encima */
+  }
+.img-auto{
+    width: 100px;
+    
+}
+.cont-article{
+    background-color: rgba(1, 101, 138, 0.819);
+    color: white;
+    width: 280px;
+    height: 120px;
+    padding: 8px;
+}
+
+.reservaYa{
+    background: rgb(57, 102, 186);
+}
+a{
+    text-decoration-line: none;
+    font-size: 20px;
+    color: black;
+}
+
+.traslados-acordeon{
+    background: rgb(255, 225, 1);
+}
+.tours-lima{
+    background: rgb(138, 255, 43);
+}
+.adicionales-acordeon{
+    background: rgb(0, 255, 251);
+}
+.full-day{
+    background: rgb(181, 132, 255);
+}

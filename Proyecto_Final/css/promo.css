@@ -1,0 +1,35 @@
+.espacio{
+    height: 100px;
+}
+#img-promo{
+    width: 16rem !important;
+    height: 12rem;
+}
+span{
+    font-size: 24px;
+}
+.tarjeta{
+    background: rgb(126, 181, 205);
+    box-shadow:4px rgba(0, 0, 0, 0.735);
+}
+.reservaYa{
+    background: rgb(57, 102, 186);
+}
+a{
+    text-decoration-line: none;
+    font-size: 20px;
+    color: black;
+}
+.btnCons{
+    background: rgb(22, 86, 247);
+    padding: 3px;
+}
+
+#menu{
+    width:16rem ;
+}
+
+.desaparecer{
+    display: none;
+
+}

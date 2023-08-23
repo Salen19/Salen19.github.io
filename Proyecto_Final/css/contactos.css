@@ -1,0 +1,18 @@
+.espacio{
+    height: 120px;
+}
+.input-group-text {
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.input-group-append, .input-group-prepend {
+    display: -ms-flexbox;
+    display: flex;
+}

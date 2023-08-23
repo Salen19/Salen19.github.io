@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background:#0D5E8B;
+  
+    font-size: 20px;
+}
+main{
+    padding-left: 20% ;
+    padding-right: 20%;
+}
+.chek{
+    background: #0D5E8B;
+}
+.social{
+    background:#0D5E8B;
+    
+}
+footer{
+    background:#0D5E8B;
+    color: white;
+}
