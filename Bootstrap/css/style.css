@@ -1,0 +1,24 @@
+header{
+    background: url(../img/fondo-login-consumidor.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:100%;
+    min-height: 100vh;
+}  
+.overlay{
+    background:rgba(45, 52, 54,0.5);
+    width:100%;
+    min-height: 100vh;
+} 
+.mv{
+    font-size: 35px;
+    color: red;
+}
+article{
+    background: url(../img/fondo-login-admin.png);
+    background-size:cover;
+    background-position: center ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
