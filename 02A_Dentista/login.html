@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Detal Centro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="inicio" class="overlay">
+        <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+          <div class="fondo container-fluid">
+            <a class="navbar-brand mx-5" href="#"
+              ><img src="img/logo.png" alt="" width="70px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse d-flex justify-content-end mx-5"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-white"
+                    ><i class="bi bi-person-fill"></i>LOGIN</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+    </header>
+    <div class="cont-banner">
+    <div  class="login">
+      <img src="img/logo.png" alt="" width="150px">
+      <br>
+      <p>Usuario</p>
+      <input type="text" placeholder="Ingresa tu Usuario" >
+      <br>
+      <p>Contraseña</p>
+      <input type="password" placeholder="Ingresa tu contraseña">
+      <br>
+      <input type="submit" name="Ingresar" class="boton mt-2">
+    </div>
+  </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+<script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function() {   
+    updateNavbarColor();
+
+    $(window).scroll(function() {
+      updateNavbarColor();
+    });
+  
+    function updateNavbarColor() {
+      var navbar = $("#navbar");
+      var windowHeight = $(window).height(); // Altura de la ventana visible
+      var scrollPosition = $(window).scrollTop(); // Posición actual del scroll
+      var targetScrollPosition = windowHeight;
+      // Cambiar el color del navbar dependiendo del porcentaje de desplazamiento
+      if (scrollPosition > targetScrollPosition) {
+        navbar.addClass("navbar-scrolled");
+      } else {
+        navbar.removeClass("navbar-scrolled");
+      }
+    }
+  });
+    </script>
+  </body>
+</html>
